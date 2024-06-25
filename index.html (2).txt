@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭日常展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe4e1;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ffb6c1;
+            border-radius: 8px 8px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .photo-gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .video-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .video-section video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ffb6c1;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>我们的家庭日常</h1>
+        </header>
+        <section id="photos">
+            <h2>照片展示</h2>
+            <div class="photo-gallery">
+                <img src="https://via.placeholder.com/300x200" alt="家庭照片1">
+                <img src="https://via.placeholder.com/300x200" alt="家庭照片2">
+                <img src="https://via.placeholder.com/300x200" alt="家庭照片3">
+                <img src="https://via.placeholder.com/300x200" alt="家庭照片4">
+                <!-- 你可以根据需要添加更多照片 -->
+            </div>
+        </section>
+        <section id="videos">
+            <h2>视频展示</h2>
+            <div class="video-section">
+                <video controls>
+                    <source src="your-video-file.mp4" type="video/mp4">
+                    您的浏览器不支持视频标签。
+                </video>
+                <!-- 你可以根据需要添加更多视频 -->
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 我们的家庭. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
